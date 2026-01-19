@@ -1,0 +1,29 @@
+.footer {
+  padding: 2rem clamp(1.5rem, 5vw, 4rem);
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.footer .comment {
+  color: var(--text-muted);
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.copyright {
+  color: var(--text-muted) !important;
+  font-size: 0.8rem !important;
+}
